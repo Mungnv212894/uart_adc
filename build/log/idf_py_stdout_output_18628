@@ -1,0 +1,202 @@
+%�(40) boot.esp32: SPI �ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.2-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 28 2024 15:42:33[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09bf0h ( 39920) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c18 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001be2c vaddr=40080000 size=041ech ( 16876) load[0m
+[0;32mI (131) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14378h ( 82808) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=000343a0 vaddr=400841ec size=08598h ( 34200) load[0m
+[0;32mI (181) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (181) boot: Disabling RNG early entropy source...[0m
+[0;32mI (193) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (209) cpu_start: App version:      1[0m
+[0;32mI (214) cpu_start: Compile time:     Aug 28 2024 15:41:38[0m
+[0;32mI (220) cpu_start: ELF file SHA256:  378e5d14f...[0m
+[0;32mI (225) cpu_start: ESP-IDF:          v5.2.2-dirty[0m
+[0;32mI (230) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (235) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (264) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (270) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (277) heap_init: At 4008C784 len 0001387C (78 KiB): IRAM[0m
+[0;32mI (285) spi_flash: detected chip: generic[0m
+[0;32mI (288) spi_flash: flash io: dio[0m
+[0;33mW (292) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (305) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (314) main_task: Started on CPU0[0m
+[0;32mI (324) main_task: Calling app_main()[0m
+[0;32mI (324) PIR: Encoded Data: [0m
+[0;32mI (424) PIR: Encoded Data: [0m
+[0;32mI (524) PIR: Encoded Data: [0m
+[0;32mI (624) PIR: Encoded Data: [0m
+[0;32mI (724) PIR: Encoded Data: [0m
+[0;32mI (824) PIR: Encoded Data: [0m
+[0;32mI (924) PIR: Encoded Data: [0m
+[0;32mI (1024) PIR: Encoded Data: [0m
+[0;32mI (1124) PIR: Encoded Data: [0m
+[0;32mI (1224) PIR: Encoded Data: [0m
+[0;32mI (1324) PIR: Encoded Data: [0m
+[0;32mI (1424) PIR: Encoded Data: [0m
+[0;32mI (1524) PIR: Encoded Data: [0m
+[0;32mI (1624) PIR: Encoded Data: [0m
+[0;32mI (1724) PIR: Encoded Data: [0m
+[0;32mI (1824) PIR: Encoded Data: [0m
+[0;32mI (1924) PIR: Encoded Data: [0m
+[0;32mI (2024) PIR: Encoded Data: [0m
+[0;32mI (2124) PIR: Encoded Data: [0m
+[0;32mI (2224) PIR: Encoded Data: [0m
+[0;32mI (2324) PIR: Encoded Data: [0m
+[0;32mI (2424) PIR: Encoded Data: [0m
+[0;32mI (2524) PIR: Encoded Data: [0m
+[0;32mI (2624) PIR: Encoded Data: [0m
+[0;32mI (2724) PIR: Encoded Data: [0m
+[0;32mI (2824) PIR: Encoded Data: [0m
+[0;32mI (2924) PIR: Encoded Data: [0m
+[0;32mI (3024) PIR: Encoded Data: [0m
+[0;32mI (3124) PIR: Encoded Data: [0m
+[0;32mI (3224) PIR: Encoded Data: [0m
+[0;32mI (3324) PIR: Encoded Data: [0m
+[0;32mI (3424) PIR: Encoded Data: [0m
+[0;32mI (3524) PIR: Encoded Data: [0m
+[0;32mI (3624) PIR: Encoded Data: [0m
+[0;32mI (3724) PIR: Encoded Data: [0m
+[0;32mI (3824) PIR: Encoded Data: [0m
+[0;32mI (3924) PIR: Encoded Data: [0m
+[0;32mI (4024) PIR: Encoded Data: [0m
+[0;32mI (4124) PIR: Encoded Data: [0m
+[0;32mI (4224) PIR: Encoded Data: [0m
+[0;32mI (4324) PIR: Encoded Data: [0m
+[0;32mI (4424) PIR: Encoded Data: [0m
+[0;32mI (4524) PIR: Encoded Data: [0m
+[0;32mI (4624) PIR: Encoded Data: [0m
+[0;32mI (4724) PIR: Encoded Data: [0m
+[0;32mI (4824) PIR: Encoded Data: [0m
+[0;32mI (4924) PIR: Encoded Data: [0m
+[0;32mI (5024) PIR: Encoded Data: [0m
+[0;32mI (5124) PIR: Encoded Data: [0m
+[0;32mI (5224) PIR: Encoded Data: [0m
+[0;32mI (5324) PIR: Encoded Data: [0m
+[0;32mI (5424) PIR: Encoded Data: [0m
+[0;32mI (5524) PIR: Encoded Data: [0m
+[0;32mI (5624) PIR: Encoded Data: [0m
+[0;32mI (5724) PIR: Encoded Data: [0m
+[0;32mI (5824) PIR: Encoded Data: [0m
+[0;32mI (5924) PIR: Encoded Data: [0m
+[0;32mI (6024) PIR: Encoded Data: [0m
+[0;32mI (6124) PIR: Encoded Data: [0m
+[0;32mI (6224) PIR: Encoded Data: [0m
+[0;32mI (6324) PIR: Encoded Data: [0m
+[0;32mI (6424) PIR: Encoded Data: [0m
+[0;32mI (6524) PIR: Encoded Data: [0m
+[0;32mI (6624) PIR: Encoded Data: [0m
+[0;32mI (6724) PIR: Encoded Data: [0m
+[0;32mI (6824) PIR: Encoded Data: [0m
+[0;32mI (6924) PIR: Encoded Data: [0m
+[0;32mI (7024) PIR: Encoded Data: [0m
+[0;32mI (7124) PIR: Encoded Data: [0m
+[0;32mI (7224) PIR: Encoded Data: [0m
+[0;32mI (7324) PIR: Encoded Data: [0m
+[0;32mI (7424) PIR: Encoded Data: [0m
+[0;32mI (7524) PIR: Encoded Data: [0m
+[0;32mI (7624) PIR: Encoded Data: [0m
+[0;32mI (7724) PIR: Encoded Data: [0m
+[0;32mI (7824) PIR: Encoded Data: [0m
+[0;32mI (7924) PIR: Encoded Data: [0m
+[0;32mI (8024) PIR: Encoded Data: [0m
+[0;32mI (8124) PIR: Encoded Data: [0m
+[0;32mI (8224) PIR: Encoded Data: [0m
+[0;32mI (8324) PIR: Encoded Data: [0m
+[0;32mI (8424) PIR: Encoded Data: [0m
+[0;32mI (8524) PIR: Encoded Data: [0m
+[0;32mI (8624) PIR: Encoded Data: [0m
+[0;32mI (8724) PIR: Encoded Data: [0m
+[0;32mI (8824) PIR: Encoded Data: [0m
+[0;32mI (8924) PIR: Encoded Data: [0m
+[0;32mI (9024) PIR: Encoded Data: [0m
+[0;32mI (9124) PIR: Encoded Data: [0m
+[0;32mI (9224) PIR: Encoded Data: [0m
+[0;32mI (9324) PIR: Encoded Data: [0m
+[0;32mI (9424) PIR: Encoded Data: [0m
+[0;32mI (9524) PIR: Encoded Data: [0m
+[0;32mI (9624) PIR: Encoded Data: [0m
+[0;32mI (9724) PIR: Encoded Data: [0m
+[0;32mI (9824) PIR: Encoded Data: [0m
+[0;32mI (9924) PIR: Encoded Data: [0m
+[0;32mI (10024) PIR: Encoded Data: [0m
+[0;32mI (10124) PIR: Encoded Data: [0m
+[0;32mI (10224) PIR: Encoded Data: [0m
+[0;32mI (10324) PIR: Encoded Data: [0m
+[0;32mI (10424) PIR: Encoded Data: [0m
+[0;32mI (10524) PIR: Encoded Data: [0m
+[0;32mI (10624) PIR: Encoded Data: [0m
+[0;32mI (10724) PIR: Encoded Data: [0m
+[0;32mI (10824) PIR: Encoded Data: [0m
+[0;32mI (10924) PIR: Encoded Data: [0m
+[0;32mI (11024) PIR: Encoded Data: [0m
+[0;32mI (11124) PIR: Encoded Data: [0m
+[0;32mI (11224) PIR: Encoded Data: [0m
+[0;32mI (11324) PIR: Encoded Data: [0m
+[0;32mI (11424) PIR: Encoded Data: [0m
+[0;32mI (11524) PIR: Encoded Data: [0m
+[0;32mI (11624) PIR: Encoded Data: [0m
+[0;32mI (11724) PIR: Encoded Data: [0m
+[0;32mI (11824) PIR: Encoded Data: [0m
+[0;32mI (11924) PIR: Encoded Data: [0m
+[0;32mI (12024) PIR: Encoded Data: [0m
+[0;32mI (12124) PIR: Encoded Data: [0m
+[0;32mI (12224) PIR: Encoded Data: [0m
+[0;32mI (12324) PIR: Encoded Data: [0m
+[0;32mI (12424) PIR: Encoded Data: [0m
+[0;32mI (12524) PIR: Encoded Data: [0m
+[0;32mI (12624) PIR: Encoded Data: [0m
+[0;32mI (12724) PIR: Encoded Data: [0m
+[0;32mI (12824) PIR: Encoded Data: [0m
+[0;32mI (12924) PIR: Encoded Data: [0m
+[0;32mI (13024) PIR: Encoded Data: [0m
+[0;32mI (13124) PIR: Encoded Data: [0m
+[0;32mI (13224) PIR: Encoded Data: [0m
+[0;32mI (13324) PIR: Encoded Data: [0m
+[0;32mI (13424) PIR: Encoded Data: [0m
+[0;32mI (13524) PIR: Encoded Data: [0m
+[0;32mI (13624) PIR: Encoded Data: [0m
+[0;32mI (13724) PIR: Encoded Data: [0m
+[0;32mI (13824) PIR: Encoded Data: [0m
+[0;32mI (13924) PIR: Encoded Data: [0m
+[0;32mI (14024) PIR: Encoded Data: [0m
+[0;32mI (14124) PIR: Encoded Data: [0m
+[0;32mI (14224) PIR: Encoded Data: [0m
+[0;32mI (14324) PIR: Encoded Data: [0m
+[0;32mI (14424) PIR: Encoded Data: [0m
+[0;32mI (14524) PIR: Encoded Data: [0m
+[0;32mI (14624) PIR: Encoded Data: [0m
+[0;32mI (14724) PIR: Encoded Data: [0m
